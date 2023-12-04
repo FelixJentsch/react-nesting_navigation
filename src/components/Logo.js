@@ -1,0 +1,13 @@
+import React from "react";
+import Image from "./Image";
+import logo from "../img/logo.jpg";
+
+const Logo = () => {
+  return (
+    <a href="#">
+      <Image src={logo} alt="logo" />
+    </a>
+  );
+};
+
+export default Logo;
